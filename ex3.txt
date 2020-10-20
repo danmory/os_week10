@@ -1,0 +1,17 @@
+Remove execute permission for everybody:
+chmod 666 _ex3.txt
+Grant all permissions to owner and others:
+chmod 707 _ex3.txt
+
+Let r - permission for read
+    w - permission for write
+    x - permission for execute
+
+660 - permission for r+w to owner and group;
+
+775 - permission for r+w+x to owner and group and
+      permissionfor r+x for others;
+
+777 - permission for r+w+x to owner, group and others;
+
+
